@@ -26,7 +26,7 @@ public class SecurityController
         this.userService = userService;
     }
 
-    @GetMapping("/intex")
+    @GetMapping("/index")
     public String home()
     {
         return "index";
